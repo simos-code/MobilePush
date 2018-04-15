@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  rabbitmq:
+    mqtt:
+    serverUri: tcp://mqtt.xxxx.com:1883
+    userName: mqtt_client
+    password: mqtt_client_pass
+    topic: xxx.topic
