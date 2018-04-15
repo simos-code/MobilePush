@@ -3,7 +3,11 @@ server:
 spring:
   rabbitmq:
     mqtt:
+    #根据实际情况填写
     serverUri: tcp://mqtt.xxxx.com:1883
+     #根据实际情况填写
     userName: mqtt_client
+     #根据实际情况填写
     password: mqtt_client_pass
+     #根据实际情况填写
     topic: xxx.topic
